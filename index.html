@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Man</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+   <div class="card">
+    <div class="search">
+        <input type="text" placeholder="Type city name" class="search-bar">
+      <button><svg class="svg-icon search-icon" aria-labelledby="title desc" 
+        role="img" xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title>
+        <desc id="desc">A magnifying glass icon.</desc><g class="search-path" 
+        fill="none" stroke="#848F91"><path stroke-linecap="square" 
+        d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></button>
+    </div>
+    <div class="weather loading=o">
+        <h2 class="city">Weather in Lagos</h2>
+        <h1 class="temp">34°C</h1>
+        <div class="flex">
+        <img src="https://openweathermap.org/img/wn/10d%20@2x.png" alt="img" class="icon"/>
+        <div class="description">Cloudy</div>
+    </div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">wind speed: 6.2 km/h</div>
+    </div>
+   </div> 
+</body>
+<script src="javascript.js" defer></script>
+<!--go to source.unsplash for random images-->
+</html>
